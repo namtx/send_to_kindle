@@ -1,0 +1,22 @@
+{
+  "name": "send_to_kindle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "babel-node dist/index.js",
+    "debug": "babel-node debug dist/index.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "@types/cheerio": "^0.22.8",
+    "@types/node-fetch": "^2.1.1",
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^2.1.2"
+  }
+}
